@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Figure">
+      <UniqueIdentifier>{c1b143ac-d9b5-41c7-bafe-75a4412a2413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{a62db2f6-e5cc-42a7-95f1-0119ad0abf6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Algorithms">
+      <UniqueIdentifier>{ab5ef361-3687-4a7c-8d73-c6dd3bd0811e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Algorithms\edison">
+      <UniqueIdentifier>{618e37e3-3bb6-4701-a1f0-27b48264faab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Algorithms\edison\segm">
+      <UniqueIdentifier>{355065e8-a4b3-4644-9d8f-887936181d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Algorithms\klt">
+      <UniqueIdentifier>{e21cb2f8-ec0d-43f8-b7a1-ed759c36a4c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Algorithms\opencv">
+      <UniqueIdentifier>{f0bffc1e-b4f4-49f5-a8f3-b443e244406d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\FileIO">
+      <UniqueIdentifier>{93e0d4f3-8634-4fcc-8ef5-8dcb3ce46530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\FileIO\Jpeglib">
+      <UniqueIdentifier>{39171f83-3688-4704-98a9-b7c73f9a4d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matrix">
+      <UniqueIdentifier>{aad2f08f-af9c-4ad4-91b0-21dc26636fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quick">
+      <UniqueIdentifier>{aecb3ab5-186e-45b6-a212-e184a558d183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{85d8bf4d-b82d-4c20-b232-507553ced205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{9c8933f2-ba97-4baf-86cf-9b64e6ead945}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Figure\Figure.cpp">
+      <Filter>Figure</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Image.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\ImageOperations.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\ImgIplImage.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\ActiveContour.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Calibration.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\CamShift.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Canny.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Chamfer.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\ChanVese.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\ConnectedComponents.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\CrossCorrelation.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Edison.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\EfrosLeung.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\EllipticalHeadTracker.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\FaceDetector.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\FastFeatureTracker.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\FHGraphSegmentation.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Filters.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Floodfill.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Histogram.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\HornSchunck.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IntelHough.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\JointFeatureTracker.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\LineFitting.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\LucasKanade.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\MaxFlowMinCut.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Motion.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\RealTimeStereo.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\RegionProps.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\SplitAndMerge.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\WallFollow.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Watershed.cpp">
+      <Filter>Image\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\edison\segm\ms.cpp">
+      <Filter>Image\Algorithms\edison\segm</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\edison\segm\msImageProcessor.cpp">
+      <Filter>Image\Algorithms\edison\segm</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\edison\segm\RAList.cpp">
+      <Filter>Image\Algorithms\edison\segm</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\edison\segm\rlist.cpp">
+      <Filter>Image\Algorithms\edison\segm</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\klt\convolve.c">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\klt\error.c">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\klt\klt.c">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\klt\klt_util.c">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\klt\pnmio.c">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\klt\pyramid.c">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\klt\selectGoodFeatures.c">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\klt\storeFeatures.c">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\klt\trackFeatures.c">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\klt\writeFeatures.c">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Bmpfile.cpp">
+      <Filter>Image\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Jpegfile.cpp">
+      <Filter>Image\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\PnmFile.cpp">
+      <Filter>Image\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jcapimin.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jcapistd.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jccoefct.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jccolor.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jcdctmgr.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jchuff.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jcinit.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jcmainct.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jcmarker.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jcmaster.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jcomapi.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jcparam.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jcphuff.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jcprepct.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jcsample.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jctrans.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jdapimin.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jdapistd.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jdatadst.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jdatasrc.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jdcoefct.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jdcolor.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jddctmgr.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jdhuff.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jdinput.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jdmainct.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jdmarker.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jdmaster.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jdmerge.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jdphuff.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jdpostct.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jdsample.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jdtrans.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jerror.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jfdctflt.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jfdctfst.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jfdctint.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jidctflt.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jidctfst.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jidctint.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jidctred.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jmemdst.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jmemmgr.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jmemnobs.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jmemsrc.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jpegtran.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jquant1.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jquant2.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\jpeglib\jutils.c">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix\LinearAlgebra.cpp">
+      <Filter>Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix\Matrix.cpp">
+      <Filter>Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix\MatrixOperations.cpp">
+      <Filter>Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Quick\Quick.cpp">
+      <Filter>Quick</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Array.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Exception.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Math.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\mt.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Mutex.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\PointSizeRect.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Surf.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Figure\FigureGlut.cpp">
+      <Filter>Figure</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Figure\Figure.h">
+      <Filter>Figure</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure\FigureGlut.h">
+      <Filter>Figure</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\Image.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\ImageAlgorithms.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\ImageOperations.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\ImgIplImage.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\PointCloud.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\EquivalenceTable.h">
+      <Filter>Image\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\MaxFlowMinCut.h">
+      <Filter>Image\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\edison\segm\ms.h">
+      <Filter>Image\Algorithms\edison\segm</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\edison\segm\msImageProcessor.h">
+      <Filter>Image\Algorithms\edison\segm</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\edison\segm\RAList.h">
+      <Filter>Image\Algorithms\edison\segm</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\edison\segm\rlist.h">
+      <Filter>Image\Algorithms\edison\segm</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\edison\segm\tdef.h">
+      <Filter>Image\Algorithms\edison\segm</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\klt\base.h">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\klt\convolve.h">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\klt\error.h">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\klt\klt.h">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\klt\klt_util.h">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\klt\pnmio.h">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\klt\pyramid.h">
+      <Filter>Image\Algorithms\klt</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\Bmpfile.h">
+      <Filter>Image\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\Jpegfile.h">
+      <Filter>Image\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\PnmFile.h">
+      <Filter>Image\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\jpeglib\cderror.h">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\jpeglib\cdjpeg.h">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\jpeglib\jchuff.h">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\jpeglib\jconfig.h">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\jpeglib\jdct.h">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\jpeglib\jdhuff.h">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\jpeglib\jerror.h">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\jpeglib\jinclude.h">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\jpeglib\jmemsys.h">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\jpeglib\jmorecfg.h">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\jpeglib\jpegint.h">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\jpeglib\jpeglib.h">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\jpeglib\jversion.h">
+      <Filter>Image\FileIO\Jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix\LinearAlgebra.h">
+      <Filter>Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix\Matrix.h">
+      <Filter>Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix\MatrixOperations.h">
+      <Filter>Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Quick\Quick.h">
+      <Filter>Quick</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Array.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Exception.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Math.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Mutex.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\PointSizeRect.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Reallocator.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="blepo.h" />
+    <ClInclude Include="Image\Surf.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\external\IEEE1394\1394camera.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\OpenCV-2\cv210.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\OpenCV-2\cxcore210.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\Microsoft\DirectX\dmoguids.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\DataTranslation\DT3120\DtColorSdk.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\FFTW\fftw3.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\OpenGL\freeglut.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\OpenGL\glu.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\OpenCV-2\highgui210.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\Microsoft\Kinect\MSRKinectNUI.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\DataTranslation\DT3120\Olfg32.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\DataTranslation\DT3120\Olimg32.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\OpenGL\opengl.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\Microsoft\DirectX\strmbase.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\Microsoft\DirectX\strmiids.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\Microsoft\VFW32.LIB">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\WinGsl\WinGsl.lib">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\Microsoft\DirectX\WINMM.LIB">
+      <Filter>Lib</Filter>
+    </Library>
+    <Library Include="..\external\Microsoft\Kinect\Kinect10.lib">
+      <Filter>Lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Quick\mmx_absdiff.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_and.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_const_and.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_const_diff.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_const_or.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_const_sum.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_const_xor.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_convolve_prewitt_horiz_abs.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_convolve_prewitt_vert_abs.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_dilate.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_erode.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_gauss_1x3.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_gauss_3x1.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_not.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_or.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_shiftleft.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_shiftright.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_subtract.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_sum.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_supported.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\mmx_xor.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\xmm_absdiff.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\xmm_and.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\xmm_const_and.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\xmm_const_diff.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\xmm_const_or.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\xmm_const_sum.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\xmm_const_xor.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\xmm_not.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\xmm_or.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\xmm_shiftleft.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\xmm_shiftright.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\xmm_subtract.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\xmm_sum.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quick\xmm_xor.asm">
+      <Filter>Quick</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
